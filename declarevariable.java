@@ -9,6 +9,10 @@ public class declarevariable {
         String d="to nsti";
         System.out.println(c+d);
 
+
+         System.out.println(add());    
+        sum();                        
+        System.out.println(string()); 
     }
     public static int add(){
 
@@ -16,6 +20,9 @@ public class declarevariable {
         int b=30;
         return a+b;
     }
+    
+
+    
     public static void sum(){
 
         int a=10;
@@ -24,9 +31,14 @@ public class declarevariable {
         System.out.println(a+b);
     }
 
+     public static String string(){
 
+        String a="welcome";
+        String b="to nsti howrah";
+        
+        return a+b;
 
-
+     }
 
     
 }

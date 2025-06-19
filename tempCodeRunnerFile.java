@@ -1,1 +1,7 @@
-   System.out.println(5+5);
+
+
+public class java2 {
+    public static void main(String[]args){
+        java1.greet();
+    }
+}
