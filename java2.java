@@ -2,6 +2,7 @@
 
 public class java2 {
     public static void main(String[]args){
-        java1.greet();
+       System.out.println( declarevariable.add());
+        System.out.println( declarevariable.string1());
     }
 }
