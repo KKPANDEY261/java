@@ -1,3 +1,4 @@
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -38,5 +39,22 @@ public class array {
                                 //Remove element in Array List
                                       d.remove(3);
                        System.out.println(d);
+
+       ArrayList<ArrayList<Integer>> e=new ArrayList<>();
+       e.add(new ArrayList<>(Arrays.asList(10,12,30,40,50)));
+       e.add(new ArrayList<>(Arrays.asList(11,13,15,16,51)));
+       e.add(new ArrayList<>(Arrays.asList(30,12,10,15,52)));
+       System.out.println(e);
+
       }    
 }
+
+
+
+
+
+
+
+
+
+
