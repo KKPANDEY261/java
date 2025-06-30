@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class input {
     public static void main(String[] args) {
+      Function n=new Function();
+        n.add(12,13);
         Scanner scanner = new Scanner(System.in);
         
         System.out.print("Enter your name: ");
