@@ -46,6 +46,5 @@ public class controlflow {
     String ternory=(Score <=30)? "you are failed":"Check your Status";
     System.out.println(ternory);
     
-
     }
 }
