@@ -1,7 +1,7 @@
 import java.awt.*;
 
 public class Awtintro {
-
+   
     public static void main(String[] args) {
         Frame f = new Frame("AWT Example");
 
